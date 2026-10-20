@@ -19,7 +19,7 @@ React · Vite · Node.js · Express · MongoDB · Mongoose · Framer Motion
 - `client/` — React frontend
 - `server/` — Express backend and API
 
-Open `http://localhost:5173`.
+Host on  `http://localhost:5173`.
 
 ## 🔗 Repository
 [GitHub — OmSaini-Portfolio](https://github.com/omsingodia/OmSaini-Portfolio)
