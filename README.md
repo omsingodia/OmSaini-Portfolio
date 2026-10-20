@@ -19,27 +19,6 @@ React · Vite · Node.js · Express · MongoDB · Mongoose · Framer Motion
 - `client/` — React frontend
 - `server/` — Express backend and API
 
-## 🚀 Run Locally
-
-**Backend**
-```bash
-cd server
-npm install
-```
-
-Create `server/.env` using `.env.example` and configure `MONGODB_URI`, `PORT`, and `CLIENT_ORIGIN`. Then run:
-
-```bash
-npm run dev
-```
-
-**Frontend** (in a second terminal)
-```bash
-cd client
-npm install
-npm run dev
-```
-
 Open `http://localhost:5173`.
 
 ## 🔗 Repository
