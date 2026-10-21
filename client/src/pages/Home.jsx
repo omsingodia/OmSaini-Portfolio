@@ -114,24 +114,35 @@ export default function Home() {
       </div>
     </section>
 
-    <section id="projects" className="section section-tinted">
-      <div className="page-wrap">
-        <div className="section-head-row"><SectionTitle  title="Technical projects" intro="Project descriptions based on the work listed in my CV."/><a
-  className="text-link see-all"
-  href="#projects"
-  onClick={(e) => {
-    e.preventDefault();
-    document.getElementById('projects')?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-  }}
->
-  View project page <ArrowUpRight size={15} />
-</a></div>
-        <div className="projects-grid">{projects.slice(0,3).map((project, i) => <ProjectCard key={project.name} project={project} index={i}/>)}</div>
-   </div>
-    </section>
+   
+<section id="projects" className="section section-tinted">
+  <div className="page-wrap">
+    <div className="section-head-row">
+      <SectionTitle
+        title="Technical projects"
+        intro="Project descriptions based on the work listed in my CV."
+      />
+
+      <a
+        className="text-link see-all"
+        href="/projects"
+      >
+        View project page <ArrowUpRight size={15} />
+      </a>
+    </div>
+
+    <div className="projects-grid">
+      {projects.slice(0, 3).map((project, i) => (
+        <ProjectCard
+          key={project.name}
+          project={project}
+          index={i}
+        />
+      ))}
+    </div>
+  </div>
+</section>
+
 
     <section id="education" className="section page-wrap">
       <SectionTitle title="Education & coordination" intro="Academic foundations and community participation."/>
