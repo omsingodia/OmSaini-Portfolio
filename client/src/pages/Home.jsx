@@ -4,8 +4,9 @@ import { ArrowDownRight, ArrowUpRight, Download, MapPin, Mail, Github, Linkedin,
 import SectionTitle from '../components/SectionTitle.jsx';
 import ContactForm from '../components/ContactForm.jsx';
 import { skills, projects, experience, education, certifications } from '../data.js';
-
-const API_BASE = import.meta.env.VITE_API_URL || '';
+const API_BASE =
+  import.meta.env.VITE_API_URL ||
+  'https://omsaini-portfolio.onrender.com';
 
 const reveal = { hidden: { opacity: 0, y: 22 }, visible: { opacity: 1, y: 0, transition: { duration: 0.55 } } };
 const revealProps = { variants: reveal, initial: 'hidden', whileInView: 'visible', viewport: { once: true, amount: 0.12 } };
