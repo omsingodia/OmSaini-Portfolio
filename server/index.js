@@ -60,7 +60,9 @@ async function start() {
   } else {
     console.warn('MONGODB_URI is missing. Contact storage is not connected; configure server/.env.');
   }
-  app.listen(PORT, () => console.log(`Portfolio API listening on http://localhost:${PORT}`));
+  app.listen(PORT, '0.0.0.0', () =>
+  console.log(`Portfolio API listening on port ${PORT}`)
+);
 }
 
 start();
