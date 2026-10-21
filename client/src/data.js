@@ -106,7 +106,7 @@ export const experience = [
 
 export const education = [
   { title: 'B.Tech — Computer Science Engineering', place: 'JK Lakshmipat University, Jaipur', date: '2024–2028' },
-  { title: 'volunteering and Community Engagement', place: 'Assisted with events and programs, supporting planning, on-ground coordination, teamwork, communication, reliability and responsibility.', date: '2023–2024' },
+  { title: 'Volunteering and Community Engagement', place: 'Assisted with events and programs, supporting planning, on-ground coordination, teamwork, communication, reliability and responsibility.', date: '2023–2024' },
 ];
 
 export const certifications = [
