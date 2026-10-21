@@ -416,16 +416,16 @@ html[data-theme="dark"] #certifications .card {
     text-align: center;
   }
 
-  .hero-art {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: auto;
-    min-height: 280px;
-    margin: 10px auto 0;
-    transform: none;
-    flex-shrink: 0;
-  }
+
+.hero-art {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  margin: 90px auto 0;
+  flex-shrink: 0;
+  clear: both;
+}
+
 
   .hero-social {
     position: relative;
