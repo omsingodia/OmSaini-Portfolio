@@ -72,7 +72,7 @@ export default function Home() {
       <div className="about-layout">
         <motion.div className="about-copy" {...revealProps}>
           <p className="lead">I’m pursuing a <strong>B.Tech in Computer Science Engineering</strong> at JK Lakshmipat University, Jaipur (2024–2028).</p>
-          <p>Alongside technical learning, I’ve gained practical exposure to industrial operations, inventory and dispatch support, documentation, on-ground coordination, social media content and brand design. My experience spans technical projects as well as business and creative tasks.</p>
+          <p>My primary focus is Computer Science Engineering, with a foundation in Data Structures and Algorithms (DSA), Database Management Systems (DBMS), Data Analysis and Algorithms (DAA), C programming, data analysis and machine learning. . Alongside my technical learning and projects, I also explore web development, digital marketing and practical business operations. I enjoy combining logical problem-solving with creativity and real-world experience.</p>
           <div className="about-facts">
             <div><MapPin size={17}/><span><small>LOCATION</small>Jaipur, Rajasthan, India</span></div>
             <div><GraduationCap size={17}/><span><small>CURRENT STATUS</small>Computer Science student</span></div>

@@ -2,24 +2,24 @@
 // Skill levels are visual draft indicators; adjust them to your actual proficiency before submission.
 export const skills = [
   { category: 'Computer Science', items: [
-    { name: 'DSA / DAA', level: 60, label: 'Foundational academic knowledge' },  
-    { name: 'C / C++', level: 60, label: 'Programming fundamentals' },
-    { name: 'Python', level: 40, label: 'Learning & practice' },
+    { name: 'Database Management Systems (DBMS)', level: 60, label: 'Core concepts' },
+    { name: 'Data Structures & Algorithms (DSA)', level: 60, label: 'Foundational knowledge' },
+    { name: 'Design & Analysis of Algorithms (DAA)', level: 60, label: 'Academic learning' },
   ]},
   { category: 'Data & Databases', items: [
-    { name: 'SQL / MySQL / DBMS', level: 60, label: 'Academic & project use' },
-    { name: 'pandas / NumPy', level: 40, label: 'Project exposure' },
-    { name: 'scikit-learn / XGBoost', level: 40, label: 'Project exposure' },
+    { name: 'SQL / MySQL ', level: 60, label: 'Academic & project use' },
+    { name: 'pandas / NumPy', level: 50, label: 'Project exposure' },
+    { name: 'scikit-learn / XGBoost', level: 50, label: 'Project exposure' },
   ]},
   { category: 'Web & Tools', items: [
-    { name: 'HTML / CSS / JavaScript', level: 55, label: 'Learning & practice' },
+    { name: 'HTML / CSS / JavaScript', level: 60, label: 'Learning & practice' },
     { name: 'Git / GitHub / Vercel', level: 60, label: 'Practical use' },  
-    { name: 'React / FastAPI', level: 30, label: 'Learning & project work' },
+    { name: 'React / MongoDB ', level: 55, label: 'Learning & project work' },
   ]},
   { category: 'Digital & Operations', items: [
     { name: 'Social content & design', level: 65, label: 'Practical experience' },
     { name: 'Documentation & coordination', level: 60, label: 'Practical exposure' },
-    { name: 'Solidity / Web3 tools', level: 30, label: 'Introductory exposure' },
+    { name: 'Digital Marketing / Social Media', level: 60, label: 'Marketing experience' },
   ]},
 ];
 
