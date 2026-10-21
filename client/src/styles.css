@@ -13,7 +13,25 @@
 @keyframes blink{50%{opacity:0}}
 @media(max-width:1050px){.topbar{padding-inline:24px}.nav-links{gap:12px}.nav-links>a{font-size:11px}.hero{gap:30px}.hero-art{transform:scale(.92)}}
 @media(max-width:850px){.page-wrap{width:calc(100% - 42px)}.topbar{height:70px;padding-inline:21px}.mobile-menu{display:grid}.nav-links{display:none;position:absolute;top:69px;left:0;right:0;padding:16px 22px 20px;background:var(--white);border-bottom:1px solid var(--line);box-shadow:var(--shadow);align-items:stretch;gap:0}.nav-links.nav-open{display:flex;flex-direction:column}.nav-links>a{padding:10px 0;font-size:13px;border-bottom:1px solid var(--line)}.nav-actions{padding-top:13px;justify-content:flex-start}.hero{padding-top:60px;min-height:540px;grid-template-columns:1fr .7fr;gap:10px}.hero-art{transform:scale(.8);margin-inline:-25px}.hero h1{font-size:clamp(38px,6vw,58px)}.projects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.projects-grid .project-card:nth-child(3){grid-column:auto}.about-layout{gap:25px}.section{padding:65px 0}}
-@media(max-width:600px){.page-wrap{width:calc(100% - 34px)}.hero{display:flex;flex-direction:column;align-items:stretch;padding:50px 0 65px;gap:5px}.hero h1{font-size:46px}.hero-art{height:280px;transform:none;margin:18px auto 0;width:min(100%,330px)}.hero-art:before{height:235px;width:205px}.portrait-placeholder{width:190px;height:225px}.portrait-placeholder>span{font-size:50px}.note-one{left:-2px;top:30px}.note-two{right:-3px;bottom:36px}.art-caption{bottom:0;right:8px}.scroll-cue{bottom:18px}.hero-social{gap:12px}.section{padding:54px 0}.section-title{margin-bottom:25px}.section-title h2{font-size:32px}.about-layout,.skills-grid,.projects-grid,.education-grid,.cert-grid,.contact-layout,.volunteer-note,.projects-page-grid{grid-template-columns:1fr}.about-aside{min-height:205px}.skill-label{align-items:flex-start;flex-direction:column;gap:2px}.skill-label small{text-align:left}.timeline-item{padding-left:43px}.timeline:before{left:14px}.timeline-pin{width:30px;height:30px;top:22px;font-size:9px}.timeline-card{padding:18px}.timeline-card h3{font-size:17px}.timeline-meta{flex-direction:column;gap:4px}.project-card{min-height:0}.section-head-row{align-items:flex-start;flex-direction:column;gap:0}.see-all{margin:0 0 20px}.volunteer-note{gap:10px}.contact-form{padding:18px}.footer{font-size:9px}.projects-page{padding-top:28px}.projects-page .section-title h2{font-size:34px}}
+@media(max-width:600px){.page-wrap{width:calc(100% - 34px)}.hero{display:flex;flex-direction:column;align-items:stretch;padding:50px 0 65px;gap:5px;min-width:0}.hero h1{font-size:46px}.hero-art{height:280px;transform:none;margin:18px auto 0;width:min(100%,330px)}.hero-art:before{height:235px;width:205px}.portrait-placeholder{width:190px;height:225px}.portrait-placeholder>span{font-size:50px}.note-one{left:-2px;top:30px}.note-two{right:-3px;bottom:36px}.art-caption{bottom:0;right:8px}.scroll-cue{bottom:18px}.hero-social{gap:12px}.hero-copy{width:100%;min-width:0}
+.hero-actions{
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  gap:10px;
+  width:100%;
+}
+.hero-actions .button{
+  width:100%;
+  max-width:100%;
+  min-width:0;
+  box-sizing:border-box;
+  justify-content:center;
+  white-space:normal;
+  text-align:center;
+  line-height:1.4;
+  padding:12px 14px;
+}
+.hero-art{flex-shrink:0;max-width:100%}.section{padding:54px 0}.section-title{margin-bottom:25px}.section-title h2{font-size:32px}.about-layout,.skills-grid,.projects-grid,.education-grid,.cert-grid,.contact-layout,.volunteer-note,.projects-page-grid{grid-template-columns:1fr}.about-aside{min-height:205px}.skill-label{align-items:flex-start;flex-direction:column;gap:2px}.skill-label small{text-align:left}.timeline-item{padding-left:43px}.timeline:before{left:14px}.timeline-pin{width:30px;height:30px;top:22px;font-size:9px}.timeline-card{padding:18px}.timeline-card h3{font-size:17px}.timeline-meta{flex-direction:column;gap:4px}.project-card{min-height:0}.section-head-row{align-items:flex-start;flex-direction:column;gap:0}.see-all{margin:0 0 20px}.volunteer-note{gap:10px}.contact-form{padding:18px}.footer{font-size:9px}.projects-page{padding-top:28px}.projects-page .section-title h2{font-size:34px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
 /* =========================
