@@ -155,15 +155,42 @@ export default function Home() {
 
     </section>
 
-    <section id="certifications" className="section section-tinted">
-      <div className="page-wrap">
-        <SectionTitle  title="Certifications" intro="Certificates listed in my CV."/>
-        <div className="cert-grid">{certifications.map((cert, i) => <motion.article className="cert-card card" key={cert.title} {...revealProps}>
-          <div className="cert-icon"><Award size={20}/></div><span className="project-date">{cert.date}</span><h3>{cert.title}</h3>
-          {cert.link ? <a className="text-link" href={cert.link} target="_blank" rel="noreferrer">View certificate <ArrowUpRight size={14}/></a> : null }
-        </motion.article>)}</div>
-      </div>
-    </section>
+<section id="certifications" className="section section-tinted">
+  <div className="page-wrap">
+    <SectionTitle
+      title="Certifications & Activities"
+      intro="Technical learning, hackathon participation and volunteering."
+    />
+
+    <div className="cert-grid">
+      {certifications.map((group, i) => (
+        <motion.article
+          className="cert-card card"
+          key={group.category}
+          {...revealProps}
+          transition={{ delay: i * 0.07 }}
+        >
+          <div className="cert-icon">
+            <Award size={20} />
+          </div>
+
+          <h3>{group.category}</h3>
+
+          <ul className="cert-list">
+            {group.items.map((item) => (
+              <li key={item.title}>
+                <span>{item.title}</span>
+                {item.date && (
+                  <small className="project-date">{item.date}</small>
+                )}
+              </li>
+            ))}
+          </ul>
+        </motion.article>
+      ))}
+    </div>
+  </div>
+</section>
 
     <section id="contact" className="section contact-section">
       <div className="page-wrap">

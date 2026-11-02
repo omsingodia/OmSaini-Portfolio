@@ -110,6 +110,58 @@ export const education = [
 ];
 
 export const certifications = [
-  { title: 'Programming Fundamentals using Python', date: 'November 2025' },
-  { title: 'Database Management System', date: 'November 2025' },
+  {
+    category: 'Technical Certifications',
+    items: [
+      {
+        title: 'Programming Fundamentals using Python — Infosys Springboard',
+        date: 'November 2025',
+      },
+      {
+        title: 'Database Management System — Infosys Springboard',
+        date: 'November 2025',
+      },
+      {
+        title: 'Python (Basic) — HackerRank',
+        date: 'March 2026',
+      },
+      {
+        title: 'SQL (Basic) — HackerRank',
+        date: 'February 2026',
+      },
+      {
+        title: 'SQL (Intermediate) — HackerRank',
+        date: 'February 2026',
+      },
+      {
+        title: 'Problem Solving (Basic) — HackerRank',
+        date: 'March 2026',
+      },
+      {
+        title: 'Red Hat System Administration I (RH124) — Course Attendance',
+        date: 'April 2026',
+      },
+    ],
+  },
+  {
+    category: 'Hackathons & Volunteering',
+    items: [
+      {
+        title: 'LNMHacks — Hackathon Participation',
+        date: '',
+      },
+      {
+        title: 'Pre Hackathon 2026 — WsCube Tech, Jaipur',
+        date: 'February 2026',
+      },
+      {
+        title: 'School Volunteering',
+        date: '2022–2024',
+      },
+      {
+        title: 'Youth Eco Summit — Volunteer (120 hours)',
+        date: 'January 2026',
+      },
+    ],
+  },
 ];
