@@ -85,7 +85,7 @@ export const experience = [
   ],
 },
   {
-    title: 'DS Foundation Institute',
+    title: 'Social Media',
     subtitle: 'Social Media Content & Creative Work',
     date: '30 June 2026 – onward',
     points: [
