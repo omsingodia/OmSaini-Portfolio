@@ -98,7 +98,7 @@ export const experience = [
     subtitle: 'Branding & Business Launch Support',
     date: '15 October 2026 – ongoing',
     points: [
-      'Designed the business logo and contributed to the initial visual identity and brand presentation.',
+      'Designed the business Website, logo and contributed to the initial visual identity and brand presentation.',
       'Supported early social-media presentation for a mobility-services concept.',
     ],
   },
