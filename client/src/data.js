@@ -56,7 +56,15 @@ export const projects = [
     description: 'Designed a normalized database using primary/foreign keys and constraints to reduce redundancy and support consistent record management.',
     stack: ['MySQL', 'SQL', 'DBMS'],
   
-  }, 
+  },
+
+  {
+  name: 'EEE Hardware & Electronics Projects',
+  date: '',
+  description: 'Built three electronics projects: a magnetic induction LED light using a copper coil and magnet, a laser-based anti-theft alarm using mirrors and an LDR, and a digital voting system using logic ICs and push buttons.',
+  stack: ['Copper Coil', 'Electromagnetic Induction', 'Laser & LDR', 'Logic ICs', 'Breadboard'],
+},
+
 ];
 
 export const experience = [
